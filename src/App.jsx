@@ -30,7 +30,7 @@ function App() {
         {/* <Cart /> */}
         {/* <Auth /> */}
         {/* <Users /> */}
-        {/* <Counter /> */}
+        <Counter />
         {/* <BMICalculator /> */}
         <EventManager />
       </Provider>

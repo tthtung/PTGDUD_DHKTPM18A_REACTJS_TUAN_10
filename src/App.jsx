@@ -1,15 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import ChangeValue_UseReducer from "./components/ChangeValue_UseReducer";
+import { Provider } from "react-redux";
+import store from "./components/redux/store";
+import ChangeValue_Redux from "./components/ChangeValue_Redux";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-      <ChangeValue_UseReducer />
+      {/* <ChangeValue_UseReducer /> */}
+      <Provider store={store}>
+        <ChangeValue_Redux />
+      </Provider>
     </>
   );
 }

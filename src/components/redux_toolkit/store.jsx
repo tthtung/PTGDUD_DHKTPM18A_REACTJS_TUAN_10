@@ -5,6 +5,7 @@ import themeReducer from "./themeSlice";
 import cartReducer from "./cartSlice";
 import authReducer from "./authSlice";
 import usersReducer from "./usersSlice";
+import counterSliceAd from "./counterSlideAd";
 
 const store = configureStore({
   reducer: {
@@ -14,6 +15,7 @@ const store = configureStore({
     cart: cartReducer,
     auth: authReducer,
     users: usersReducer,
+    counterSliceAd: counterSliceAd,
   },
 });
 

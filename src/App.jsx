@@ -10,6 +10,7 @@ import ThemeToggle from "./components/ThemeToggle";
 import Cart from "./components/Cart";
 import Auth from "./components/Auth";
 import Users from "./components/Users";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
         {/* <ThemeToggle /> */}
         {/* <Cart /> */}
         {/* <Auth /> */}
-        <Users />
+        {/* <Users /> */}
+        <Counter />
       </Provider>
     </>
   );

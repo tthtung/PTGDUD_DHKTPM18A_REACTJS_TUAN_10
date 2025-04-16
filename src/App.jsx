@@ -27,12 +27,12 @@ function App() {
         {/* <ChangeValue_ReduxToolkit /> */}
         {/* <TodoApp /> */}
         {/* <ThemeToggle /> */}
-        {/* <Cart /> */}
+        <Cart />
         {/* <Auth /> */}
         {/* <Users /> */}
-        <Counter />
+        {/* <Counter /> */}
         {/* <BMICalculator /> */}
-        <EventManager />
+        {/* <EventManager /> */}
       </Provider>
     </>
   );

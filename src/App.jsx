@@ -9,6 +9,7 @@ import TodoApp from "./components/TodoApp";
 import ThemeToggle from "./components/ThemeToggle";
 import Cart from "./components/Cart";
 import Auth from "./components/Auth";
+import Users from "./components/Users";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         {/* <TodoApp /> */}
         {/* <ThemeToggle /> */}
         {/* <Cart /> */}
-        <Auth />
+        {/* <Auth /> */}
+        <Users />
       </Provider>
     </>
   );

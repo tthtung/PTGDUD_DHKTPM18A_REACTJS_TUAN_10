@@ -12,6 +12,7 @@ import Auth from "./components/Auth";
 import Users from "./components/Users";
 import Counter from "./components/Counter";
 import BMICalculator from "./components/BMICalculator";
+import EventManager from "./components/EventManager";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
         {/* <Auth /> */}
         {/* <Users /> */}
         {/* <Counter /> */}
-        <BMICalculator />
+        {/* <BMICalculator /> */}
+        <EventManager />
       </Provider>
     </>
   );

@@ -7,6 +7,7 @@ import authReducer from "./authSlice";
 import usersReducer from "./usersSlice";
 import counterSliceAd from "./counterSlideAd";
 import bmiReducer from "./bmiSlice";
+import eventReducer from "./eventSlice";
 
 const store = configureStore({
   reducer: {
@@ -18,6 +19,7 @@ const store = configureStore({
     users: usersReducer,
     counterSliceAd: counterSliceAd,
     bmi: bmiReducer,
+    events: eventReducer,
   },
 });
 

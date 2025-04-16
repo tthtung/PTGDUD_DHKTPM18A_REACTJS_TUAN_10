@@ -11,6 +11,7 @@ import Cart from "./components/Cart";
 import Auth from "./components/Auth";
 import Users from "./components/Users";
 import Counter from "./components/Counter";
+import BMICalculator from "./components/BMICalculator";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
         {/* <Cart /> */}
         {/* <Auth /> */}
         {/* <Users /> */}
-        <Counter />
+        {/* <Counter /> */}
+        <BMICalculator />
       </Provider>
     </>
   );

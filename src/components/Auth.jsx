@@ -36,7 +36,12 @@ export default function Auth() {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
-          />
+          /> <br />
+          <input
+            type="password"
+            placeholder="Mật khẩu"
+            required
+          /> <br />
           <button type="submit" style={{ marginLeft: 10 }}>
             Đăng nhập
           </button>

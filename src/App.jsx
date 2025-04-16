@@ -6,6 +6,7 @@ import store from "./components/redux_toolkit/store";
 import ChangeValue_Redux from "./components/ChangeValue_Redux";
 import ChangeValue_ReduxToolkit from "./components/ChangeValue_ReduxToolkit";
 import TodoApp from "./components/TodoApp";
+import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
 
       <Provider store={store}>
         {/* <ChangeValue_ReduxToolkit /> */}
-        <TodoApp />
+        {/* <TodoApp /> */}
+        <ThemeToggle />
       </Provider>
     </>
   );

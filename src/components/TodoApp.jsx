@@ -19,7 +19,7 @@ export default function TodoApp() {
   };
 
   return (
-    <div>
+    <div style={{height: "100vh", padding: "20px"}}>
       <h2>Redux toolkit</h2>
       <h2>To-do List</h2>
 

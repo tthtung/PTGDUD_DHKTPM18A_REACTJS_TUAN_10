@@ -8,6 +8,7 @@ import ChangeValue_ReduxToolkit from "./components/ChangeValue_ReduxToolkit";
 import TodoApp from "./components/TodoApp";
 import ThemeToggle from "./components/ThemeToggle";
 import Cart from "./components/Cart";
+import Auth from "./components/Auth";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         {/* <ChangeValue_ReduxToolkit /> */}
         {/* <TodoApp /> */}
         {/* <ThemeToggle /> */}
-        <Cart />
+        {/* <Cart /> */}
+        <Auth />
       </Provider>
     </>
   );

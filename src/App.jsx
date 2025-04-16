@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import store from "./components/redux_toolkit/store";
 import ChangeValue_Redux from "./components/ChangeValue_Redux";
 import ChangeValue_ReduxToolkit from "./components/ChangeValue_ReduxToolkit";
+import TodoApp from "./components/TodoApp";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       </Provider> */}
 
       <Provider store={store}>
-        <ChangeValue_ReduxToolkit />
+        {/* <ChangeValue_ReduxToolkit /> */}
+        <TodoApp />
       </Provider>
     </>
   );
